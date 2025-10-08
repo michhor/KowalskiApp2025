@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KowalskiApp.Lib\KowalskiApp.Lib.csproj">
+      <Project>{9ca2f6a8-7ca9-4393-960b-35ef80ec103a}</Project>
+      <Name>KowalskiApp.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
